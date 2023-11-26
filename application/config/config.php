@@ -512,4 +512,3 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-$config['date_default_timezone'] = 'Europe/Paris';
