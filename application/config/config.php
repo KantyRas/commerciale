@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/system_rh/';
+$config['base_url'] = 'http://localhost/commerciale/';
 
 /*
 |--------------------------------------------------------------------------
@@ -512,4 +512,3 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-$config['date_default_timezone'] = 'Europe/Paris';
