@@ -42,7 +42,7 @@
                     </li>
                     <li class="nav-small-cap">
                         <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-                        <span class="hide-menu">PAGES</span>
+                        <span class="hide-menu">GESTION</span>
                     </li>
                     <li class="sidebar-item">
                         <a class="sidebar-link" href="<?php echo site_url('Departement/departements')?>" aria-expanded="false">
@@ -55,9 +55,53 @@
                     <li class="sidebar-item">
                         <a class="sidebar-link" href="#" aria-expanded="false">
                 <span>
-                  <i class="ti ti-face-id"></i>
+                  <i class="ti ti-user-plus"></i>
                 </span>
-                            <span class="hide-menu">Fournisseurs</span>
+                            <span class="hide-menu">Clients</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="<?php echo base_url('Fournisseur/fournisseurs')?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-user-minus"></i>
+                </span>
+                            <span class="hide-menu">Fournisseur</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="<?php echo base_url('Categorie/categories')?>" aria-expanded="false">
+                <span>
+                  <i class="ti ti-brand-apple-arcade"></i>
+                </span>
+                            <span class="hide-menu">Categorie produit</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="#" aria-expanded="false">
+                <span>
+                  <i class="ti ti-brand-producthunt"></i>
+                </span>
+                            <span class="hide-menu">Produits</span>
+                        </a>
+                    </li>
+                    <li class="nav-small-cap">
+                        <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
+                        <span class="hide-menu">PAGES</span>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="# aria-expanded="false">
+                        <span>
+                  <i class="ti ti-moneybag"></i>
+                </span>
+                        <span class="hide-menu">Achats</span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="# aria-expanded="false">
+                        <span>
+                  <i class="ti ti-pig-money"></i>
+                </span>
+                        <span class="hide-menu">Ventes</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
