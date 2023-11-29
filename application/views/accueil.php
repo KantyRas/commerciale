@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Modernize Free</title>
+    <title>Systeme Commerciale</title>
     <link rel="shortcut icon" type="image/png" href="<?php echo base_url()?>/assets/images/logos/favicon.png" />
     <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/styles.min.css" />
 </head>
@@ -45,43 +45,27 @@
                         <span class="hide-menu">PAGES</span>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="<?php echo base_url('Departement/departements')?>">
+                        <a class="sidebar-link" href="<?php echo site_url('Departement/departements')?>" aria-expanded="false">
                 <span>
-                  <i class="ti ti-article"></i>
+                  <i class="ti ti-home"></i>
                 </span>
                             <span class="hide-menu">Départements</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="./ui-alerts.html" aria-expanded="false">
+                        <a class="sidebar-link" href="#" aria-expanded="false">
                 <span>
-                  <i class="ti ti-alert-circle"></i>
+                  <i class="ti ti-face-id"></i>
                 </span>
-                            <span class="hide-menu">Alerts</span>
+                            <span class="hide-menu">Fournisseurs</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="./ui-card.html" aria-expanded="false">
+                        <a class="sidebar-link" href="# aria-expanded="false">
                 <span>
                   <i class="ti ti-cards"></i>
                 </span>
-                            <span class="hide-menu">Card</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="./ui-forms.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-file-description"></i>
-                </span>
-                            <span class="hide-menu">Forms</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="./ui-typography.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-typography"></i>
-                </span>
-                            <span class="hide-menu">Typography</span>
+                            <span class="hide-menu">Annonces</span>
                         </a>
                     </li>
                     <li class="nav-small-cap">
@@ -89,39 +73,11 @@
                         <span class="hide-menu">AUTH</span>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="./authentication-login.html" aria-expanded="false">
+                        <a class="sidebar-link" href="#" aria-expanded="false">
                 <span>
-                  <i class="ti ti-login"></i>
+                  <i class="ti ti-checklist"></i>
                 </span>
-                            <span class="hide-menu">Login</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="./authentication-register.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-user-plus"></i>
-                </span>
-                            <span class="hide-menu">Register</span>
-                        </a>
-                    </li>
-                    <li class="nav-small-cap">
-                        <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
-                        <span class="hide-menu">EXTRA</span>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="./icon-tabler.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-mood-happy"></i>
-                </span>
-                            <span class="hide-menu">Icons</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="./sample-page.html" aria-expanded="false">
-                <span>
-                  <i class="ti ti-aperture"></i>
-                </span>
-                            <span class="hide-menu">Sample Page</span>
+                            <span class="hide-menu">Validation annonce</span>
                         </a>
                     </li>
                 </ul>
