@@ -45,7 +45,7 @@
                         <span class="hide-menu">GESTION</span>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="<?php echo site_url('Departement/departements')?>" aria-expanded="false">
+                        <a class="sidebar-link" href="<?php echo base_url('Departement/departements')?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-home"></i>
                 </span>
@@ -77,7 +77,7 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="#" aria-expanded="false">
+                        <a class="sidebar-link" href="<?php echo base_url('Produit/produits')?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-brand-producthunt"></i>
                 </span>
