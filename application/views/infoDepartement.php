@@ -11,12 +11,10 @@
             <div class="table-responsive">
                 <table class="table text-nowrap mb-0 align-middle">
                     <thead class="text-dark fs-4">
+
                     <tr>
                         <th class="border-bottom-0">
                             <h6 class="fw-semibold mb-0">Id</h6>
-                        </th>
-                        <th class="border-bottom-0">
-                            <h6 class="fw-semibold mb-0">Fonctions</h6>
                         </th>
                         <th class="border-bottom-0">
                             <h6 class="fw-semibold mb-0">Nom</h6>
@@ -28,24 +26,23 @@
                             <h6 class="fw-semibold mb-0">Salaire</h6>
                         </th>
                     </tr>
+
                     </thead>
                     <tbody>
+                    <?php foreach ($emps as $emp):?>
                     <tr>
-                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0">1</h6></td>
+                        <td class="border-bottom-0"><h6 class="fw-semibold mb-0"><?php echo $emp['idEmploye']?></h6></td>
                         <td class="border-bottom-0">
-                            <h6 class="fw-semibold mb-1">Informatique</h6>
-                            <span class="fw-normal">Web Designer</span>
+                            <span class="fw-normal"><?php echo $emp['nomEmploye']?></span>
                         </td>
                         <td class="border-bottom-0">
-                            <p class="mb-0 fw-normal">Elite </p>
+                            <p class="mb-0 fw-normal"><?php echo $emp['prenomEmploye']?></p>
                         </td>
                         <td class="border-bottom-0">
-                            <p class="mb-0 fw-normal"> Admin</p>
-                        </td>
-                        <td class="border-bottom-0">
-                            <h6 class="fw-semibold mb-0 fs-4">$3.9</h6>
+                            <h6 class="fw-semibold mb-0 fs-4"><?php echo $emp['salaire']?> Ar</h6>
                         </td>
                     </tr>
+                    <?php endforeach; ?>
                     </tbody>
                 </table>
             </div>

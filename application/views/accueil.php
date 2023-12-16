@@ -69,14 +69,6 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="<?php echo base_url('Categorie/categories')?>" aria-expanded="false">
-                <span>
-                  <i class="ti ti-brand-apple-arcade"></i>
-                </span>
-                            <span class="hide-menu">Categorie produit</span>
-                        </a>
-                    </li>
-                    <li class="sidebar-item">
                         <a class="sidebar-link" href="<?php echo base_url('Produit/produits')?>" aria-expanded="false">
                 <span>
                   <i class="ti ti-brand-producthunt"></i>
@@ -89,7 +81,7 @@
                         <span class="hide-menu">PAGES</span>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="# aria-expanded="false">
+                        <a class="sidebar-link" href="<?php echo base_url('Achat/loadAchat')?>"false">
                         <span>
                   <i class="ti ti-moneybag"></i>
                 </span>
@@ -97,7 +89,7 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="# aria-expanded="false">
+                        <a class="sidebar-link" href="#" aria-expanded=false">
                         <span>
                   <i class="ti ti-pig-money"></i>
                 </span>
@@ -105,7 +97,7 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="# aria-expanded="false">
+                        <a class="sidebar-link" href="<?php echo base_url('Annonce/annonces')?>" aria-expanded=false">
                 <span>
                   <i class="ti ti-cards"></i>
                 </span>

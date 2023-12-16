@@ -7,23 +7,23 @@
     <tr>
         <th scope="col">#</th>
         <th scope="col">Désignation</th>
-        <th scope="col">Catégorie</th>
         <th scope="col">Quantité</th>
-        <th scope="col">Unité</th>
+        <th scope="col">Prix unitaire</th>
         <th scope="col"></th>
         <th scope="col"></th>
     </tr>
     </thead>
     <tbody>
+    <?php foreach ($articles as $art):?>
     <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-        <td>u</td>
+        <th scope="row"><?php echo $art['idArticle']?></th>
+        <td><?php echo $art['designation']?></td>
+        <td><?php echo $art['quantite']?></td>
+        <td><?php echo $art['prixUnitaire']?></td>
         <td><a href="#">delete</a></td>
         <td><a href="#">update</a></td>
     </tr>
+    <?php endforeach;?>
     </tbody>
 </table>
 
