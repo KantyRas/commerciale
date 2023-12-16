@@ -8,8 +8,10 @@ class Produit extends CI_Controller
     }
 
     public function produits(){
+        $this->load->model('ProduitModel');
+        $data['articles'] = $this->ProduitModel->getAllProduit();
         $this->load->view('accueil');
-        $this->load->view('produit');
+        $this->load->view('produit',$data);
     }
 
     public function ajout(){

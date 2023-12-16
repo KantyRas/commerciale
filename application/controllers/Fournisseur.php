@@ -8,8 +8,10 @@ class Fournisseur extends CI_Controller
     }
 
     public function fournisseurs(){
+            $this->load->model('FournisseurModel');
+        $data['fournisseurs'] = $this->FournisseurModel->getAllFournisseur();
         $this->load->view('accueil');
-        $this->load->view('fournisseur');
+        $this->load->view('fournisseur',$data);
     }
     public function ajout(){
         $this->load->view('accueil');

@@ -14,14 +14,16 @@
     </tr>
     </thead>
     <tbody>
+    <?php foreach ($fournisseurs as $f):?>
     <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+        <th scope="row"><?php echo $f['idFournisseur']?></th>
+        <td><?php echo $f['nomFournisseur']?></td>
+        <td><?php echo $f['email']?></td>
+        <td><?php echo $f['tel']?></td>
         <td><a href="#">delete</a></td>
         <td><a href="#">update</a></td>
     </tr>
+    <?php endforeach;?>
     </tbody>
 </table>
 
